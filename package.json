@@ -7,7 +7,7 @@
     "url": "git+https://github.com/hi-rachel/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Rachel Moon<rachel.uiux@gmail.com>",
   "license": "MIT",
@@ -16,7 +16,9 @@
   },
   "homepage": "https://github.com/hi-rachel/wetube-reloaded#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.18.1",
+    "mongoose": "^6.4.0",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
